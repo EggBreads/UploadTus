@@ -1,8 +1,8 @@
 package main
 
 import (
-	"catenoid-company/tus-backend/controlHandles"
-	"catenoid-company/tus-backend/lib"
+	"catenoid-company/uploadTus/tus-backend/controlHandles"
+	"catenoid-company/uploadTus/tus-backend/lib"
 	"fmt"
 	"github.com/gin-gonic/gin"
 	"os"

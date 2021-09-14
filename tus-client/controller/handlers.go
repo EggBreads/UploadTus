@@ -2,9 +2,9 @@ package controller
 
 import "C"
 import (
-	"catenoid-company/tus-client/dto"
-	"catenoid-company/tus-client/lib"
-	"catenoid-company/tus-client/upload"
+	"catenoid-company/uploadTus/tus-client/dto"
+	"catenoid-company/uploadTus/tus-client/lib"
+	uploads "catenoid-company/uploadTus/tus-client/upload"
 	"github.com/eventials/go-tus"
 	"github.com/gin-gonic/gin"
 	"github.com/go-redis/redis"

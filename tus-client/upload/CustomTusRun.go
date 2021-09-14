@@ -1,8 +1,8 @@
 package uploads
 
 import (
-	"catenoid-company/tus-client/lib"
-	"catenoid-company/tus-client/tusInterface"
+	"catenoid-company/uploadTus/tus-client/lib"
+	"catenoid-company/uploadTus/tus-client/tusInterface"
 	"github.com/eventials/go-tus"
 	"log"
 	"sync"

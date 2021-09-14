@@ -1,8 +1,8 @@
 package uploads
 
 import (
-	"catenoid-company/tus-client/dto"
-	"catenoid-company/tus-client/lib"
+	"catenoid-company/uploadTus/tus-client/dto"
+	"catenoid-company/uploadTus/tus-client/lib"
 	"fmt"
 	"github.com/eventials/go-tus"
 	"github.com/gin-gonic/gin"
