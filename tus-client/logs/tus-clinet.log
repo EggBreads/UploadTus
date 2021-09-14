@@ -1,0 +1,10 @@
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /tus/continuousFile       --> catenoid-company/tus-client/controller.(*Handlers).UploadContinuousHandle-fm (3 handlers)
+[GIN-debug] POST   /tus/moveToUploadFile     --> catenoid-company/tus-client/controller.(*Handlers).GetContinueUploadFile-fm (3 handlers)
+[GIN-debug] POST   /tus/deleteToUploadFile   --> catenoid-company/tus-client/controller.(*Handlers).DeleteHandle-fm (3 handlers)
+[GIN-debug] Listening and serving HTTP on :8082
